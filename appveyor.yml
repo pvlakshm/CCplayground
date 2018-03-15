@@ -1,0 +1,7 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+before_build:
+- cmd: nuget restore MyApp/MyApp.sln
+build:
+  project: MyApp/MyApp.sln
+  verbosity: minimal

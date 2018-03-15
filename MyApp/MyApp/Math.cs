@@ -10,7 +10,10 @@ namespace MyApp
     {
         public int add(int x, int y)
         {
-            return x + y;
+            if (x == 0)
+                return y;
+            else
+                return x + y;
         }
     }
 }

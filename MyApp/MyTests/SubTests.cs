@@ -10,6 +10,7 @@ namespace MyTests
 {
     public class SubTests
     {
+        [Fact]
         public void subTest1()
         {
             int x = 5;

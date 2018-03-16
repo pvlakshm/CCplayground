@@ -8,7 +8,7 @@ namespace MyApp
 {
     public class Mult
     {
-        public int multiply(int x, int y)
+        public int multiplyByRepeatedAddition(int x, int y)
         {
             if (y == 0)
             {
@@ -33,6 +33,22 @@ namespace MyApp
 
                 return x;
             }
+        }
+
+        public int multiply(int x, int y)
+        {
+            return x * y;
+        }
+
+        public int multiplyComplicated(int x, int y)
+        {
+            int tenx = x * 10;
+            int teny = y * 10;
+
+            int prod = tenx * teny;
+            int val = prod / 100;
+
+            return val;
         }
     }
 }

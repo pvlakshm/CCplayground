@@ -10,14 +10,29 @@ namespace MyApp
     {
         public int multiply(int x, int y)
         {
-            var m = new MyApp.Math();
-
-            for (int k = 0; k < y; k++)
+            if (y == 0)
             {
-                x = m.add(x, y);
+                return 0;
             }
+            else if (y == 1)
+            {
+                return x;
+            }
+            else if (y == -1)
+            {
+                return -x;
+            }
+            else
+            {
+                var m = new MyApp.Math();
 
-            return x;
+                for (int k = 0; k < y; k++)
+                {
+                    x = m.add(x, y);
+                }
+
+                return x;
+            }
         }
     }
 }

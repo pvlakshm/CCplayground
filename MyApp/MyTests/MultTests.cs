@@ -21,5 +21,16 @@ namespace MyTests
             var val = new MyApp.Mult().multiply(x, y);
             Assert.Equal(res, val);
         }
+
+        [Fact]
+        public void multTest2()
+        {
+            int x = 5;
+            int y =0;
+            int res = 30;
+
+            var val = new MyApp.Mult().multiply(x, y);
+            Assert.Equal(res, val);
+        }
     }
 }

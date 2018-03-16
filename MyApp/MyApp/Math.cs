@@ -15,5 +15,10 @@ namespace MyApp
             else
                 return x + y;
         }
+
+        public int sub(int x, int y)
+        {
+            return add(x, (-y));
+        }
     }
 }

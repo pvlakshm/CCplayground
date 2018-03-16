@@ -22,7 +22,7 @@ namespace MyTests
         }
 
         [Fact]
-        public void addTest1()
+        public void addTest2()
         {
             int x = 0;
             int y = 6;

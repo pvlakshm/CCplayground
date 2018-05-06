@@ -8,16 +8,47 @@ namespace MyApp
 {
     public class Mult
     {
+        public int multiplyByRepeatedAddition(int x, int y)
+        {
+            if (y == 0)
+            {
+                return 0;
+            }
+            else if (y == 1)
+            {
+                return x;
+            }
+            else if (y == -1)
+            {
+                return -x;
+            }
+            else
+            {
+                var m = new MyApp.Math();
+
+                for (int k = 0; k < y; k++)
+                {
+                    x = m.add(x, y);
+                }
+
+                return x;
+            }
+        }
+
         public int multiply(int x, int y)
         {
-            var m = new MyApp.Math();
+            return x * y;
+        }
 
-            for (int k = 0; k < y; k++)
-            {
-                x = m.add(x, y);
-            }
+        public int multiplyComplicated(int x, int y)
+        {
+            int tenx = x * 10;
+            int teny = y * 10;
 
-            return x;
+            int prod = tenx * teny;
+            int val = prod / 100;
+
+            return val;
         }
     }
 }

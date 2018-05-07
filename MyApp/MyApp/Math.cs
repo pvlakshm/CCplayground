@@ -12,6 +12,8 @@ namespace MyApp
         {
             if (x == 0)
                 return y;
+            else if (y == 0)
+                return x;
             else
                 return x + y;
         }

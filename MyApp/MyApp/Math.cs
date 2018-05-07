@@ -20,6 +20,9 @@ namespace MyApp
 
         public int sub(int x, int y)
         {
+            if (y == 0)
+                return x;
+
             return add(x, (-y));
         }
     }

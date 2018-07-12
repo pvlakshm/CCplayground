@@ -20,5 +20,16 @@ namespace MyTests
             var val = new MyApp.Math().sub(x, y);
             Assert.Equal(res, val);
         }
+
+        [Fact]
+        public void subTest2()
+        {
+            int x = 5;
+            int y = 6;
+            int res = -1;
+
+            var val = new MyApp.Math().sub(x, y);
+            Assert.Equal(res, val);
+        }
     }
 }

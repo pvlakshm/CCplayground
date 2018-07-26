@@ -7,8 +7,7 @@ build:
   verbosity: minimal
 test_script:
 - cmd: >-
-    %APPVEYOR_BUILD_FOLDER%\MyApp\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"%APPVEYOR_BUILD_FOLDER%\MyApp\packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.x86.exe" -targetargs:"%APPVEYOR_BUILD_FOLDER%\MyApp\MyTests\bin\Debug\MyTests.dll -noshadow" -output:".\coverage.xml" -filter:"+[MyApp*]* -[MyApp.Div*]*"
-    %APPVEYOR_BUILD_FOLDER%\MyApp\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"%APPVEYOR_BUILD_FOLDER%\MyApp\packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.x86.exe" -targetargs:"%APPVEYOR_BUILD_FOLDER%\MyApp\MyTests\bin\Debug\MyTests.dll -noshadow" -output:".\coverage.xml" -filter:"+[MyApp*]* -[MyApp.Mult*]*"
+    %APPVEYOR_BUILD_FOLDER%\Myapp\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"%APPVEYOR_BUILD_FOLDER%\MyApp\packages\xunit.runner.console.2.4.0\tools\net452\xunit.console.x86.exe" -targetargs:"%APPVEYOR_BUILD_FOLDER%\MyApp\AddTests\bin\Debug\AddTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\SubTests\bin\Debug\SubTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\MultTests\bin\Debug\MultTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\DivTests\bin\Debug\DivTests.dll -noshadow" -output:".\coverage.xml" -filter:"+[MyApp*]* -[*Tests*]*"
 
 
     %APPVEYOR_BUILD_FOLDER%\MyApp\packages\Codecov.1.0.3\tools\codecov.exe -f coverage.xml -t 92689bfe-74fc-417e-b4a0-bf231a0f901b

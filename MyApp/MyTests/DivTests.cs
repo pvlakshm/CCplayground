@@ -9,15 +9,15 @@ namespace MyTests
 {
     public class DivTests
     {
-        [Fact]
-        public void divTest1()
-        {
-            int x = 6;
-            int y = 6;
-            int div = 1;
+        //[Fact]
+        //public void divTest1()
+        //{
+        //    int x = 6;
+        //    int y = 6;
+        //    int div = 1;
 
-            var res = new MyApp.Div().div2(x, y);
-            Assert.Equal(div, res);
-        }
+        //    var res = new MyApp.Div().div2(x, y);
+        //    Assert.Equal(div, res);
+        //}
     }
 }

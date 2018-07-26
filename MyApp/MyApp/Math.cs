@@ -8,30 +8,30 @@ namespace MyApp
 {
     public class Math
     {
-        public int add(int x, int y)
-        {
-            if (x == 0)
-                return y;
-            else if (y == 0)
-                return x;
-            else
-                return x + y;
-        }
+        //public int add(int x, int y)
+        //{
+        //    if (x == 0)
+        //        return y;
+        //    else if (y == 0)
+        //        return x;
+        //    else
+        //        return x + y;
+        //}
 
-        public int sub(int x, int y)
-        {
-            if (y == 0)
-                return x;
+        //public int sub(int x, int y)
+        //{
+        //    if (y == 0)
+        //        return x;
 
-            return add(x, (-y));
-        }
+        //    return add(x, (-y));
+        //}
 
-        public int div(int x, int y)
-        {
-            if (y == 0)
-                throw new DivideByZeroException();
+        //public int div(int x, int y)
+        //{
+        //    if (y == 0)
+        //        throw new DivideByZeroException();
 
-            return x / y;
-        }
+        //    return x / y;
+        //}
     }
 }

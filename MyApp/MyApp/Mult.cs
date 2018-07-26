@@ -24,7 +24,7 @@ namespace MyApp
             }
             else
             {
-                var m = new MyApp.Math();
+                var m = new MyApp.Add();
 
                 for (int k = 0; k < y; k++)
                 {

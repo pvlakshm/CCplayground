@@ -22,7 +22,7 @@ namespace MultTests
         {
             int x = 5;
             int y = 0;
-            int res = 30;
+            int res = 0;
 
             var val = new MyApp.Mult().multiply(x, y);
             Assert.Equal(res, val);

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AddOp;
 
-namespace MyApp
+namespace MultOp
 {
     public class Mult
     {
@@ -24,7 +25,7 @@ namespace MyApp
             }
             else
             {
-                var m = new MyApp.Add();
+                var m = new AddOp.Add();
 
                 for (int k = 0; k < y; k++)
                 {

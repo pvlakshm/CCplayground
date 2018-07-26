@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AddOp;
 
-namespace MyApp
+namespace SubOp
 {
     public class Sub
     {
@@ -13,7 +14,7 @@ namespace MyApp
             if (y == 0)
                 return x;
 
-            return new MyApp.Add().add(x, (-y));
+            return new AddOp.Add().add(x, (-y));
         }
     }
 }

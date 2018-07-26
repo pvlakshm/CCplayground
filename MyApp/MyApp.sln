@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27512.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubTests", "SubTests\SubTests.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultTests", "MultTests\MultTests.csproj", "{3A5BF390-0F4A-4671-BFFA-C0CD53E50B5E}"
@@ -13,16 +11,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTests", "AddTests\AddTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivTests", "DivTests\DivTests.csproj", "{35E41953-AB8C-42D6-9FD0-99CF03306F2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddOp", "AddOp\AddOp.csproj", "{798F1F17-14C4-4EE8-96E1-070D8E85CC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubOp", "SubOp\SubOp.csproj", "{2740B80A-5CE8-4030-BBD7-DC5082B11E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultOp", "MultOp\MultOp.csproj", "{EB46B2D0-0FC5-4B77-B212-1423F8DDE371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivOp", "DivOp\DivOp.csproj", "{B85CF0EB-6103-4623-9C48-CD131DC15890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +41,22 @@ Global
 		{35E41953-AB8C-42D6-9FD0-99CF03306F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E41953-AB8C-42D6-9FD0-99CF03306F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E41953-AB8C-42D6-9FD0-99CF03306F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798F1F17-14C4-4EE8-96E1-070D8E85CC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798F1F17-14C4-4EE8-96E1-070D8E85CC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798F1F17-14C4-4EE8-96E1-070D8E85CC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798F1F17-14C4-4EE8-96E1-070D8E85CC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2740B80A-5CE8-4030-BBD7-DC5082B11E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2740B80A-5CE8-4030-BBD7-DC5082B11E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2740B80A-5CE8-4030-BBD7-DC5082B11E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2740B80A-5CE8-4030-BBD7-DC5082B11E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB46B2D0-0FC5-4B77-B212-1423F8DDE371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB46B2D0-0FC5-4B77-B212-1423F8DDE371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB46B2D0-0FC5-4B77-B212-1423F8DDE371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB46B2D0-0FC5-4B77-B212-1423F8DDE371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85CF0EB-6103-4623-9C48-CD131DC15890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85CF0EB-6103-4623-9C48-CD131DC15890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85CF0EB-6103-4623-9C48-CD131DC15890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85CF0EB-6103-4623-9C48-CD131DC15890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

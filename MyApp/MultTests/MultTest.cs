@@ -13,7 +13,7 @@ namespace MultTests
             int y = 6;
             int res = 30;
 
-            var val = new MyApp.Mult().multiply(x, y);
+            var val = new MultOp.Mult().multiply(x, y);
             Assert.Equal(res, val);
         }
 
@@ -24,7 +24,7 @@ namespace MultTests
             int y = 0;
             int res = 0;
 
-            var val = new MyApp.Mult().multiply(x, y);
+            var val = new MultOp.Mult().multiply(x, y);
             Assert.Equal(res, val);
         }
     }

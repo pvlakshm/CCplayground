@@ -13,7 +13,7 @@ namespace DivTests
             int y = 6;
             int div = 1;
 
-            var res = new MyApp.Div().div2(x, y);
+            var res = new DivOp.Div().div2(x, y);
             Assert.Equal(div, res);
         }
     }

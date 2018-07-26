@@ -7,4 +7,4 @@ build:
   verbosity: minimal
 test_script:
 - cmd: >-
-    %APPVEYOR_BUILD_FOLDER%\MyApp\packages\xunit.runner.console.2.4.0\tools\net452\xunit.console.x86.exe" -targetargs:"%APPVEYOR_BUILD_FOLDER%\MyApp\AddTests\bin\Debug\AddTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\SubTests\bin\Debug\SubTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\MultTests\bin\Debug\MultTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\DivTests\bin\Debug\DivTests.dll -noshadow
+    "%APPVEYOR_BUILD_FOLDER%\MyApp\packages\xunit.runner.console.2.4.0\tools\net452\xunit.console.x86.exe" -targetargs:"%APPVEYOR_BUILD_FOLDER%\MyApp\AddTests\bin\Debug\AddTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\SubTests\bin\Debug\SubTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\MultTests\bin\Debug\MultTests.dll %APPVEYOR_BUILD_FOLDER%\MyApp\DivTests\bin\Debug\DivTests.dll -noshadow"

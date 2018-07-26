@@ -13,7 +13,7 @@ namespace AddTests
             int y = 6;
             int sum = 11;
 
-            var res = new MyApp.Add().add(x, y);
+            var res = new AddOp.Add().add(x, y);
             Assert.Equal(sum, res);
         }
 
@@ -24,7 +24,7 @@ namespace AddTests
             int y = 6;
             int sum = 6;
 
-            var res = new MyApp.Add().add(x, y);
+            var res = new AddOp.Add().add(x, y);
             Assert.Equal(sum, res);
         }
     }

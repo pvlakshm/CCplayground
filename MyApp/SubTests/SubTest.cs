@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-using MyApp;
 
 namespace SubTests
 {
@@ -17,7 +16,7 @@ namespace SubTests
             int y = 6;
             int res = -1;
 
-            var val = new MyApp.Sub().sub(x, y);
+            var val = new SubOp.Sub().sub(x, y);
             Assert.Equal(res, val);
         }
 
@@ -28,7 +27,7 @@ namespace SubTests
             int y = 6;
             int res = -1;
 
-            var val = new MyApp.Sub().sub(x, y);
+            var val = new SubOp.Sub().sub(x, y);
             Assert.Equal(res, val);
         }
     }

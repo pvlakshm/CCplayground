@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11FED198-F1B4-42DC-8A4A-5630FCF4DD82}</ProjectGuid>
+    <ProjectGuid>{B85CF0EB-6103-4623-9C48-CD131DC15890}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyApp</RootNamespace>
-    <AssemblyName>MyApp</AssemblyName>
+    <RootNamespace>DivOp</RootNamespace>
+    <AssemblyName>DivOp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,12 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add.cs" />
     <Compile Include="Div.cs" />
-    <Compile Include="Math.cs" />
-    <Compile Include="Mult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

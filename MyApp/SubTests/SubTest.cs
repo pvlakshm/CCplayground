@@ -12,23 +12,23 @@ namespace SubTests
         [Fact]
         public void subTest1()
         {
-            int x = 5;
-            int y = 6;
-            int res = -1;
+            //int x = 5;
+            //int y = 6;
+            //int res = -1;
 
-            var val = new SubOp.Sub().sub(x, y);
-            Assert.Equal(res, val);
+            //var val = new SubOp.Sub().sub(x, y);
+            //Assert.Equal(res, val);
         }
 
         [Fact]
         public void subTest2()
         {
-            int x = 5;
-            int y = 6;
-            int res = -1;
+            //int x = 5;
+            //int y = 6;
+            //int res = -1;
 
-            var val = new SubOp.Sub().sub(x, y);
-            Assert.Equal(res, val);
+            //var val = new SubOp.Sub().sub(x, y);
+            //Assert.Equal(res, val);
         }
     }
 }

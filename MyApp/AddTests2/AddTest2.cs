@@ -9,12 +9,12 @@ namespace AddTests2
         [Fact]
         public void addTest2()
         {
-            //int x = 0;
-            //int y = 6;
-            //int sum = 6;
+            int x = 0;
+            int y = 6;
+            int sum = 6;
 
-            //var res = new AddOp.Add().add(x, y);
-            //Assert.Equal(sum, res);
+            var res = new AddOp.Add().add(x, y);
+            Assert.Equal(sum, res);
         }
     }
 }
